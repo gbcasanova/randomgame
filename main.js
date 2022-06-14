@@ -1,7 +1,13 @@
 var config = {
     type: Phaser.AUTO,
-    width: 800,
-    height: 600,
+    
+    scale: {
+        mode: Phaser.Scale.HEIGHT_CONTROLS_WIDTH,
+        autoCenter: Phaser.Scale.CENTER_BOTH,
+    },
+    width: 256,
+    height: 256,
+    
     scene: [Level]
 };
 

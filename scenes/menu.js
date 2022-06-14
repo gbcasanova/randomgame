@@ -1,8 +1,8 @@
-class Menu extends Phaser.Scene
+class Level extends Phaser.Scene
 {
     constructor()
     {
-        super({key: "Menu"})
+        super({key: "Level"})
     }
 
     preload()
